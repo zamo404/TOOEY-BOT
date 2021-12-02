@@ -29,12 +29,12 @@ const cmd = require("node-cmd");
 const { I18n } = require("locale-parser");
 bot.reva = new I18n({ defaultLocale: "en" });
 
-global.logChannel = bot.channels.cache.get("891641446283759646")
+global.logChannel = bot.channels.cache.get("916080243884818482")
  
 global.mongoose = require("mongoose");
 mongoose
   .connect(
-    "mongodb+srv://hama1234:hama1234++@cluster0.8zckc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
@@ -86,7 +86,7 @@ bot.on("ready", () => {
 });
 
 bot.on("ready", () => {
-  bot.user.setActivity("Bobhelp | beta: version", { type: "WATCHING" });
+  bot.user.setActivity("Gamblehelp | beta: version", { type: "WATCHING" });
 });
 ///////////
 
@@ -102,4 +102,4 @@ bot.on("messageCreate", async message => {
 
 
 
-bot.login("ODUwMTA2NTkxMDUxMzgyNzg0.YLk5dQ.dt0POc-zYUZwfq2NS0EyY4riWjg");
+bot.login("NzU4ODIxNzI0OTk2MzcwNDcz.X20hzQ.k9HfXJ3TouOnnCUROXzabXDoo6A");
