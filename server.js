@@ -17,11 +17,11 @@ const bot = new Client({
 
 const { Util } = require("discord.js");
 const fs = require("fs");
-const prefix = "Bo";
+const prefix = "G";
 const { Collection, RichEmbed } = require("discord.js");
 const beautify = require("js-beautify");
 const { inspect } = require("util");
-let dev = [""];
+let dev = ["637299944939585576"];
 const cmd = require("node-cmd");
 const { I18n } = require("locale-parser");
 bot.reva = new I18n({ defaultLocale: "en" });
@@ -83,7 +83,7 @@ bot.on("ready", () => {
 });
 
 bot.on("ready", () => {
-  bot.user.setActivity("Gamblehelp | beta: version", { type: "WATCHING" });
+  bot.user.setActivity("Ghelp | beta: version", { type: "WATCHING" });
 });
 ///////////
 
