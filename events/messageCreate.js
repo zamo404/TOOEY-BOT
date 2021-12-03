@@ -101,7 +101,7 @@ if(!command) return;/// message.channel.send({content: `I don't have command lik
       if (!message.channel.permissionsFor(bot.user).has("SEND_MESSAGES"))
         return;
       if (!command.enabled) return await message.channel.send({content:`This command is **Disable** for now`})
-  let Ww = await Owner.findOne({ ownerCode: "768944616724103170" });
+  let Ww = await Owner.findOne({ ownerCode: "637299944939585576" });
   data.ww = Ww;
   if (command.ownerOnly && !Ww.worldWhitelist.find((c) => c.type === message.author.id)) return await message.channel.send({content:`This command is only for owner the bot`});
   if (command.guilOwnerOnly) {
