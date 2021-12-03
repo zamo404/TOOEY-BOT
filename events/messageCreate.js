@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const owners = "768944616724103170";
+const owners = "637299944939585576";
 /**/
 
 
