@@ -28,9 +28,9 @@ module.exports = class {
     if (prime && prime.log === "enable")
       return ;//message.channel.send(`you don't have Premium version`);
   
-   let h= await Owner.findOne({ ownerCode: "768944616724103170" });
+   let h= await Owner.findOne({ ownerCode: "637299944939585576" });
     if (!h) {
-      Owner.create({ ownerCode: "768944616724103170",worldWhitelist:"768944616724103170"})
+      Owner.create({ ownerCode: "637299944939585576",worldWhitelist:"637299944939585576"})
    }
     ///if(message.guild.members.cache.has("838593240328044554")) return
    
