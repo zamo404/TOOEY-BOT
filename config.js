@@ -1,1 +1,1 @@
-exports.Color = `BLUR`;
+exports.Color = `YELLOW`;
