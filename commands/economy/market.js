@@ -23,7 +23,7 @@ module.exports = {
         const pages = new Pages(_.chunk(selected, 24).map((chunk, i, o) => {
           return new MessageEmbed()
           .setColor('GREY')
-          .setTitle('Bobo\'s Market')
+          .setTitle('Gamble\'s Market')
           .setDescription('__You can view all of the items in the market__')
           .setFooter(`Market | \©️${new Date().getFullYear()} Bobo\u2000\u2000•\u2000\u2000Page ${i+1} of ${o.length}`)
           .addFields(...chunk.map(item => {
