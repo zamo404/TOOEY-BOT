@@ -86,7 +86,7 @@ bot.on("ready", () => {
 });
 
 bot.on("ready", () => {
-  bot.user.setActivity("Ghelp | Updated: 1.0.0V", { type: "WATCHING" });
+  bot.user.setActivity("Ghelp | Updated: 1.0.0V", { type: "COMPETING" });
 });
 ///////////
 
