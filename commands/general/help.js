@@ -10,7 +10,7 @@ module.exports = {
   run: async (bot, message, args, dev) => {
 ////if(message.guild.me.has("838593240328044554"))return
 let embed = new Discord.MessageEmbed()
-      .setColor("RED")
+      .setColor("YELLOW")
       .setDescription(`<@${bot.user.id}> a game bot for spending time and enjoying for you dear\n\n__Prefix Information__\nPrefix: **G**\nYou can also mention <@${bot.user.id}> to get prefix info\n\n[ Invite ](https://discord.com/api/oauth2/authorize?client_id=${bot.user.id}&permissions=1074120776&scope=bot) - [ Support ](https://discord.gg/rjhPpahNNR)`)
       .addField("General || 🌎","`prefix`, `news`, `about`,  `invite`, `serverinfo`, `userinfo`, `ping`, `bots`,`redeem`")  
       .addField("Economy || 💶","`daily`, `balance`, `give`, `birthday`")
