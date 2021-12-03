@@ -14,7 +14,7 @@ module.exports = {
       .setColor(Color)
       .setTitle("**Bobo Bot**  InviteLink!")
       .setURL(
-        `https://discord.com/api/oauth2/authorize?client_id=850106591051382784&permissions=1074120776&scope=bot`
+        `https://discord.com/api/oauth2/authorize?client_id=758821724996370473&permissions=8&scope=bot`
       )
      
       
