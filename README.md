@@ -1,2 +1,2 @@
 # economy
-Coded by Alex / Hama
+Coded by Hama
