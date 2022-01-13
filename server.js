@@ -35,7 +35,7 @@ global.logChannel = bot.channels.cache.get("916080243884818482")
 global.mongoose = require("mongoose");
 mongoose
   .connect(
-    "",
+    "mongodb+srv://economy:reda123456@redoall.zmuvg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
@@ -103,4 +103,4 @@ bot.on("messageCreate", async message => {
 
 
 
-bot.login("");
+bot.login("OTMwNDI1MzMyNDUwODY1MTkz.Yd1sHQ.Pppiq4wWlHrm4ewk9LKYp13DS5c");
