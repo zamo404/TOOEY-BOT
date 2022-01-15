@@ -122,7 +122,7 @@ module.exports = class {
       }
       timestamps.set(message.author.id, now);
       let prefix = guild.prefix;
-      if (command) command.run(bot, message, args, prefix, data, cmd, prime);
+      if (command) command.run(bot, message, args, prefix, data, cmd);
       setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
     }
   }
