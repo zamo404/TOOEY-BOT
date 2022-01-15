@@ -100,7 +100,6 @@ bot.on("messageCreate", async message => {
 
 /////
 
+ 
 
-
-
-bot.login("OTMwNDI1MzMyNDUwODY1MTkz.Yd1sHQ.Pppiq4wWlHrm4ewk9LKYp13DS5c");
+bot.login("OTMxOTc0NjIyNDE5Nzc5NjU1.YeMPAQ.M5ZV3PiuNjDInUZwcIGXMcGJbqk");
