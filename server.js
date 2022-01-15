@@ -4,18 +4,11 @@
 const { Discord, Client } = require("discord.js");
 const bot = new Client({
   intents: [
-    "GUILDS",
-    "GUILD_INVITES",
-    "GUILD_MEMBERS",
-    "GUILD_MESSAGES",
-    "GUILD_VOICE_STATES",
-"GUILD_MESSAGE_REACTIONS"
+    Intents.FLAGS.GUILDS,
+    Intents.FLAGS.GUILD_MESSAGES,
+    Intents.FLAGS.GUILD_MESSAGE_REACTIONS,
   ],
-  allowedMentions: {
-    parse: ["everyone", "roles", "users"],
-    repliedUser: true
-  },
-  partials: ["CHANNEL", "GUILD_MEMBER","GUILD_REACTIONS", "MESSAGE", "REACTION", "USER"]
+  partials: ["MESSAGE", "CHANNEL", "REACTION"],
 });
 ///const bot = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD] });
 
