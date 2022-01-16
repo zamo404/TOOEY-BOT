@@ -19,7 +19,7 @@ module.exports = {
 
       let DR = Math.floor(Math.random() * 2000) + 1000
       
-      message.channel.send({content:`**${message.author.username}** you get <:alex_35:932236986041909268> $\`${DR}\` credits`})
+      message.channel.send({content:`**${message.author.username}** you get <:alex_37:932238330756755506> $\`${DR}\` credits`})
       
       data.time = Date.now();
       data.name = message.author.username
