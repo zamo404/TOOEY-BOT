@@ -19,13 +19,13 @@ module.exports = {
       let autho = await User.findOne({ userID: member.id });
       message.channel.send({
         content:`
-          <:alex_40:932239945328914433> **${member.username}**, credits balance is __${autho.money}__ ${m}`
+          <:alex_40:932239945328914433> **${member.username}**, credits balance is __${autho,.money}__ ${m}`
       });
     }
     if (!member) {
       let author = await User.findOne({ userID: message.author.id });
       message.reply({
-        content: `<:alex_40:932239945328914433> **${message.author.username}**, Your credits balance is:  __\`${author.money}\`__${m}
+        content: `<:alex_40:932239945328914433> **${message.author.username}**, Your credits balance is:  __\`${author,.money}\`__${m}
       `});
     }
   }
