@@ -1,6 +1,6 @@
 const fs = require("fs");
 const Discord = require("discord.js");
-const m = "<:Bobocash:897148836567457862>"
+const m = ""
 
 module.exports = {
   name: "balance",
