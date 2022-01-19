@@ -11,7 +11,7 @@ module.exports = {
 ////if(message.guild.me.has("838593240328044554"))return
 let embed = new Discord.MessageEmbed()
       .setColor("YELLOW")
-      .setDescription(`<@${bot.user.id}> a game bot for spending time and enjoying for you dear\n\n__Prefix Information__\nPrefix: **G**\nYou can also mention <@${bot.user.id}> to get prefix info\n\n[ Invite ](https://discord.com/api/oauth2/authorize?client_id=${bot.user.id}&permissions=1074120776&scope=bot) - [ Support ](https://discord.gg/rjhPpahNNR)`)
+      .setDescription(`<@${bot.user.id}> a game bot for spending time and enjoying for you dear\n\n__Prefix Information__\nPrefix: **G**\nYou can also mention <@${bot.user.id}> to get prefix info\n\n[ Invite ](https://discord.com/api/oauth2/authorize?client_id=930409896199991316&permissions=8&scope=bot) - [ Support ](https://discord.gg/kurdish)`)
       .addField("General || 🌎","`prefix`, `news`, `about`,  `invite`, `serverinfo`, `userinfo`, `ping`, `bots`,`redeem`")  
       .addField("Economy || 💶","`daily`, `balance`, `give`, `birthday`")
       .addField("Game ||  🎮"," `coinflip`, `slots`")
