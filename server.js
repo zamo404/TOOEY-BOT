@@ -28,7 +28,7 @@ global.logChannel = bot.channels.cache.get("923294131063750667")
 global.mongoose = require("mongoose");
 mongoose
   .connect(
-    "mongodb+srv://ANOxDevV:ano123@anoxdevv.3kjvd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "mongodb+srv://ANO:ano123@anoxdevv.3kjvd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
@@ -79,7 +79,7 @@ bot.on("ready", () => {
 });
 
 bot.on("ready", () => {
-  bot.user.setActivity("Thelp", { type: "PLAYING" });
+  bot.user.setActivity("Khelp" The Best Games Bot, { type: "PLAYING" });
 });
 ///////////
 
