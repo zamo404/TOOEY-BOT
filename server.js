@@ -28,7 +28,7 @@ global.logChannel = bot.channels.cache.get("923294131063750667")
 global.mongoose = require("mongoose");
 mongoose
   .connect(
-    "mongodb+srv://Alex:Alex0@cluster0.cn627.mongodb.net/AlexIsHere?retryWrites=true&w=majority",
+    "mongodb+srv://ANOxDevV:ano123@anoxdevv.3kjvd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
