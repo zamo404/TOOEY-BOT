@@ -1,7 +1,7 @@
 const fs = require("fs");
 const Discord = require("discord.js");
 
-const m = "<:Bobocash:897148836567457862>"
+const m = "<:ano_40:932239945328914433>"
 
 module.exports = {
   name: "give",
