@@ -79,7 +79,7 @@ bot.on("ready", () => {
 });
 
 bot.on("ready", () => {
-  bot.user.setActivity("Khelp" The Best Games Bot, { type: "PLAYING" });
+  bot.user.setActivity("Khelp ! The Best Games Bot", { type: "PLAYING" });
 });
 ///////////
 
