@@ -95,4 +95,4 @@ bot.on("messageCreate", async message => {
 
  
 
-bot.login("OTMwNDA5ODk2MTk5OTkxMzE2.Yd1dvQ.1qxOfDxzphSeL44UPoYFJSKPDmA");
+bot.login("OTMwNDA5ODk2MTk5OTkxMzE2.Yd1dvQ.pIqAqFJzEqns2FoG4jGsPUnU8eQ");
