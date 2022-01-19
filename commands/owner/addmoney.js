@@ -1,6 +1,6 @@
 
 const { MessageEmbed } = require("discord.js");
-const dev = ["887237203871301654"]
+const dev = ["832437049935527936"]
 const Discord = require("discord.js")
 const { Color } = require("../../config.js")
 module.exports = {
