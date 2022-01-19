@@ -18,7 +18,7 @@ const prefix = "T";
 const { Collection, MessageEmbed } = require("discord.js");
 const beautify = require("js-beautify");
 const { inspect } = require("util");
-let dev = ["887237203871301654"];
+let dev = ["832437049935527936"];
 const cmd = require("node-cmd");
 const { I18n } = require("locale-parser");
 bot.reva = new I18n({ defaultLocale: "en" });
@@ -95,4 +95,4 @@ bot.on("messageCreate", async message => {
 
  
 
-bot.login("OTMwNDA5ODk2MTk5OTkxMzE2.Yd1dvQ.X2C079TGD3GlIpLr5oHJsOfWAc4");
+bot.login("OTMwNDA5ODk2MTk5OTkxMzE2.Yd1dvQ.1qxOfDxzphSeL44UPoYFJSKPDmA");
