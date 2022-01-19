@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
-const slot = ["<a:slot:896774794706571365>"]
-const cash = "<:Bobocash:897148836567457862>"
+const slot = ["<a:anoslots:933423729151733780>"]
+const cash = "<:ano_40:932239945328914433>"
 const { Color } = require("../../config.js")
 module.exports = {
   name: "slots",
@@ -27,8 +27,8 @@ if(amount > money) return message.channel.send({content: `❎ You don't have eno
   
         
  let br = amount * 1   
-  let slots = ["<:heart:896938168681627658>","<:heart:896938168681627658>","<:heart:896938168681627658>","<:gelas:896938056840515664>","<:gelas:896938056840515664>","<:bainjan:896937982160949329>","<:bainjan:896937982160949329>"]
-////["🍇","🍒","🍒","🍇"];
+  let slots = ["🍇","🍉","🍇","🍌","🍌","🍆","🍆"]
+////["🍇","🍌","🍌","🍉"];
   //
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
   let result1 = Math.floor((Math.random() * slots.length));
