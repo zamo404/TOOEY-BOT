@@ -14,11 +14,11 @@ const bot = new Client({
 
 const { Util } = require("discord.js");
 const fs = require("fs");
-const prefix = "K";
+const prefix = "bom";
 const { Collection, MessageEmbed } = require("discord.js");
 const beautify = require("js-beautify");
 const { inspect } = require("util"); 
-const dev = ["832437049935527936"];
+const dev = ["832653324897091637"];
 const cmd = require("node-cmd");
 const { I18n } = require("locale-parser");
 bot.reva = new I18n({ defaultLocale: "en" });
@@ -79,7 +79,7 @@ bot.on("ready", () => {
 });
 
 bot.on("ready", () => {
-  bot.user.setActivity("Khelp ! The Best Games Bot", { type: "PLAYING" });
+  bot.user.setActivity("bomhelp ! The Best Games Bot", { type: "PLAYING" });
 });
 ///////////
 
