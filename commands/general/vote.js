@@ -10,6 +10,6 @@ module.exports = {
   cooldown: 5000,
   run: async (bot, message, args, dev) => {
    let embed = new Discord.MessageEmbed()
-.setDescription (`[DiscordBotlist](https://discord.ly/bobo)`)
+.setDescription (`[DiscordBotlist](NOONE)`)
 message.channel.send({embeds: [embed]})
 }}
