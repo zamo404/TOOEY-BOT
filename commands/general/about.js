@@ -18,7 +18,7 @@ module.exports = {
 let data = await Guild.findOne({guildID: message.guild.id})
        let embed = new Discord.MessageEmbed()
         .setTitle(`${bot.user.username} Information`)
-        .setDescription(`This bot has been created by **<@637299944939585576>**`)
+        .setDescription(`This bot has been created by **<@832653324897091637>**`)
         .setColor(Color)
         .setThumbnail(bot.user.displayAvatarURL())
         .addField(`**Bot Name:**`, `${bot.user.tag}`)
