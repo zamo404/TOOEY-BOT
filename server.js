@@ -14,7 +14,7 @@ const bot = new Client({
 
 const { Util } = require("discord.js");
 const fs = require("fs");
-const prefix = "bom";
+const prefix = "Z";
 const { Collection, MessageEmbed } = require("discord.js");
 const beautify = require("js-beautify");
 const { inspect } = require("util"); 
@@ -79,7 +79,7 @@ bot.on("ready", () => {
 });
 
 bot.on("ready", () => {
-  bot.user.setActivity("bomhelp ! The Best Games Bot", { type: "PLAYING" });
+  bot.user.setActivity("Zhelp ! The Best Games Bot", { type: "PLAYING" });
 });
 ///////////
 
