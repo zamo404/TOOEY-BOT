@@ -1,2 +1,1 @@
 # economy
-Coded by Ano
