@@ -14,7 +14,7 @@ const bot = new Client({
 
 const { Util } = require("discord.js");
 const fs = require("fs");
-const prefix = "Z";
+const prefix = "T";
 const { Collection, MessageEmbed } = require("discord.js");
 const beautify = require("js-beautify");
 const { inspect } = require("util"); 
@@ -79,7 +79,7 @@ bot.on("ready", () => {
 });
 
 bot.on("ready", () => {
-  bot.user.setActivity("Zhelp ! The Best Games Bot", { type: "PLAYING" });
+  bot.user.setActivity("Thelp ! The Best Games Bot", { type: "PLAYING" });
 });
 ///////////
 
@@ -95,4 +95,4 @@ bot.on("messageCreate", async message => {
 
  
 
-bot.login("OTUxMTkyNDMzNzY3NjI0NzM0.Yij4_A.2zbw2LORYLe8ThNmQ4KHakD9Tds");
+bot.login("OTUwNDQ1MjIzNzIzNTQwNTAw.GdW3G1.R_VMeJ0RvM2tCeANbPkz7woOxJB6db0VYL6gHA");
