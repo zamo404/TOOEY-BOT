@@ -14,11 +14,11 @@ const bot = new Client({
 
 const { Util } = require("discord.js");
 const fs = require("fs");
-const prefix = "T";
+const prefix = "V";
 const { Collection, MessageEmbed } = require("discord.js");
 const beautify = require("js-beautify");
 const { inspect } = require("util"); 
-const dev = ["832653324897091637"];
+const dev = ["804783561269182495"];
 const cmd = require("node-cmd");
 const { I18n } = require("locale-parser");
 bot.reva = new I18n({ defaultLocale: "en" });
@@ -79,7 +79,7 @@ bot.on("ready", () => {
 });
 
 bot.on("ready", () => {
-  bot.user.setActivity("Thelp ! The Best Games Bot", { type: "PLAYING" });
+  bot.user.setActivity("Vhelp ! The Best Games Bot", { type: "PLAYING" });
 });
 ///////////
 
@@ -95,4 +95,4 @@ bot.on("messageCreate", async message => {
 
  
 
-bot.login("OTUwNDQ1MjIzNzIzNTQwNTAw.GdW3G1.R_VMeJ0RvM2tCeANbPkz7woOxJB6db0VYL6gHA");
+bot.login("OTUxNjA0NTg1NzcwOTEzODMy.GWhkqY.b48lgjXzGASR3T5GUpPYZIF8f_QCuQlpAe4iUY");
