@@ -6,7 +6,7 @@ module.exports = {
   name: "prefix",
   aliases: ["setprefix"],
   description: "Change the prefix of the bot",
-  usage: ["s!prefix [Prefix]"],
+  usage: ["Vprefix [Prefix]"],
   category: ["admin"],
   enabled: true,            
   memberPermissions: [ "ADMINISTRATOR" ],            
