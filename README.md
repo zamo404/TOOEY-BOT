@@ -1,2 +1,0 @@
-# economy
-By zamo
